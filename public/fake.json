@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "img1": "https://i.ibb.co/nbL8Svk/1670825819952.jpg",
+    "img2": "https://i.ibb.co/W3r7gP5/1670825845093.jpg",
+    "img3": "https://i.ibb.co/ZNPnhpq/1670825863432.jpg",
+    "name": "Product Resale",
+    "desc": "At first Add A meaningfull navbar and footer It's a laptop resale project a user can easily buy a product as he want and a seller add a product and An admin get access can delete user and seller. There are three category type product like hp, asus and dell. In this category will have more product A bayer can report the product if he face any issue about the product and Admin can delete the reported product. There are also will have more section like services section and so on add axios method in category api add two useQuery api in order route and reportedITems route",
+    "liveURl": "https://laptop-accessories-a1991.firebaseapp.com/",
+    "clientCode": "https://github.com/mdaslamalidu/laptop-resate-client-site",
+    "serverCode": "https://github.com/mdaslamalidu/laptop-resate-server-site"
+  },
+  {
+    "id": 2,
+    "img1": "https://i.ibb.co/mFDZL8w/1670826509570.jpg",
+    "img2": "https://i.ibb.co/V2fnb1s/1670826548650.jpg",
+    "img3": "https://i.ibb.co/Phzzhpz/1670826478477.jpg",
+    "name": "Photography Website",
+    "desc": "At First, Set up a individual photography website. i have set a banner and navbar and footer with menu and title. In the home page shown 3 service with two section like about and photo collection section. set a authentication system like email, password and social. a user will be able to login using this method. Add a blog page with relivent question and answer. Add a dynamic title when you will go any route the route name will show in the title. Finally add jwt token for a valid user.",
+    "liveURl": "https://photography-site-6824f.firebaseapp.com/",
+    "clientCode": "https://github.com/mdaslamalidu/photography-client-site",
+    "serverCode": "https://github.com/mdaslamalidu/Photography-server-site"
+  },
+  {
+    "id": 3,
+    "img1": "https://i.ibb.co/bg0CfxP/1670826862378.jpg",
+    "img2": "https://i.ibb.co/tYQxDwC/1670826959630.jpg",
+    "img3": "https://i.ibb.co/FnfkBsd/1670826938208.jpg",
+    "name": "It Courses",
+    "desc": "At First, I have set up a website name and title name. Then create some rutes like home, topics, statistis and blog. Each and every routes will have feteaures. such as insite home route must have header background image and topics and topic route will have shown all topics with name and image and statistics route will have shown total questions with name finally blog route will have shown three questions with answer. At last, I have shown all quiz sections with a dynamic routes.",
+    "liveURl": "https://frolicking-gelato-5bd8e1.netlify.app/",
+    "clientCode": " https://github.com/mdaslamalidu/online-courses-site-09"
+  }
+]
