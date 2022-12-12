@@ -10,6 +10,6 @@ export const routes = createBrowserRouter([
   {
     path: "/details/:id",
     element: <Details></Details>,
-    loader: ({ params }) => `http://localhost:3001/details/${params.id}`,
+    loader: ({ params }) => `http://localhost:3000/details/${params.id}`,
   },
 ]);
