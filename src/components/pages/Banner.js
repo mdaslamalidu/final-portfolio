@@ -7,7 +7,7 @@ const Banner = ({ setSelectedPage }) => {
   // const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
     <section id="home">
-      <div className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10 w-5/6 mx-auto">
+      <div className="md:flex md:justify-between md:items-center gap-16 md:h-full w-5/6 mx-auto">
         {/* IMAGE SECTION */}
         <div className="basis-3/5 z-10 md:mt-16 flex justify-center md:order-2">
           <div>

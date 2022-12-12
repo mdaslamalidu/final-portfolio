@@ -2,7 +2,7 @@ import SocialIcons from "../../hooks/SocialIcons";
 
 const Footer = () => {
   return (
-    <footer className="h-64 bg-[#0A1929] pt-10 mt-24">
+    <footer className="h-64 bg-[#0A1929] pt-10 mt-5">
       <div className="w-10/12 mx-auto">
         <SocialIcons />
         <div className="md:flex justify-center md:justify-between text-center ">
