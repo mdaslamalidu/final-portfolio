@@ -1,13 +1,13 @@
 import { v4 as uuidv4 } from "uuid";
-import UTrackerImg from "../img1.png";
-import GreenCtgImg from "../project-1.jpeg";
+import UTrackerImg from "../img44.jpg";
+import GreenCtgImg from "../project-1.png";
 import CoinTrackerImg from "../img4.jpg";
 
 const projects = [
   {
     id: 1,
     name: "Product Resale",
-    desc: " Click here to learn more! United Nation news articles give a global perspective to human stories.",
+    desc: "It's a laptop resale site, that Builds a user (authentication, and authorization) system for Admin, Bayers, and Sellers.",
     img: UTrackerImg,
     liveLink: "https://laptop-accessories-a1991.firebaseapp.com/",
     code: "https://github.com/mdaslamalidu/Daily-news-site",
@@ -15,7 +15,7 @@ const projects = [
   {
     id: 2,
     name: "Photography",
-    desc: "Please Donate your wealth to serve their family issue.",
+    desc: " It’s an individual services site where users can see a person’s services using a login system. Implement user authentication, and react photo view to see the whole display using user click.",
     img: GreenCtgImg,
     liveLink: "https://photography-site-6824f.firebaseapp.com/",
   },

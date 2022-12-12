@@ -43,7 +43,7 @@ const Projects = () => {
               <SwiperSlide>
                 <img src={item.img} alt={item.name} />
                 <h3 className="mt-5">{item.name}</h3>
-                <p className="my-5">{item.desc}</p>
+                <p className="my-5">{item.desc.slice(0, 50) + "....."}</p>
                 {/* <a href="#">Live Site</a> */}
                 <div className="swiperLInk">
                   <a href={item.liveLink} target="_blank">
