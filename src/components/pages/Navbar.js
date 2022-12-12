@@ -45,11 +45,7 @@ export const Navbar = ({ isTopOfPage, setSelectedPage, selectedPage }) => {
             title="Company"
             class="inline-flex items-center"
           >
-            <img
-              className="w-10"
-              src="https://alternative.me/media/256/extensis-portfolio-icon-upb56q6ny3h8rqrs-c.png"
-              alt=""
-            />
+            <img className="w-8" src="assets/logo.png" alt="" />
           </Link>
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
@@ -180,11 +176,7 @@ export const Navbar = ({ isTopOfPage, setSelectedPage, selectedPage }) => {
                         title="Company"
                         class="inline-flex items-center"
                       >
-                        <img
-                          className="w-10"
-                          src="https://alternative.me/media/256/extensis-portfolio-icon-upb56q6ny3h8rqrs-c.png"
-                          alt=""
-                        />
+                        <img className="w-8" src="assets/logo.png" alt="" />
                       </Link>
                     </div>
                     <div>
