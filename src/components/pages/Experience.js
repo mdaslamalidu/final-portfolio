@@ -57,8 +57,51 @@ const Experience = () => {
             <h1>University of Dhaka</h1>
           </div>
         </div>
-        <div className="bg-[#0A1929] rounded-md">
-          <h1>Skill</h1>
+        <div className="bg-[#0A1929] p-6 rounded-md">
+          <b className="bg-black px-3 py-2 rounded">Skill</b>
+          <div className="grid grid-cols-2 my-4">
+            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+              HTML
+            </h1>
+            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+              CSS
+            </h1>
+          </div>
+          <div className="grid grid-cols-2 my-4">
+            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+              BOOTSTRAP
+            </h1>
+            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+              TAILWIND CSS
+            </h1>
+          </div>
+          <div className="grid grid-cols-2 my-4">
+            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+              JABASCRIPT
+            </h1>
+            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+              REACT JS
+            </h1>
+          </div>
+          <div className="grid grid-cols-2 my-4">
+            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+              REDUX
+            </h1>
+            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+              NODE JS
+            </h1>
+          </div>
+          <div className="grid grid-cols-2 my-4">
+            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+              EXPRESS JS
+            </h1>
+            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+              MONGO DB
+            </h1>
+          </div>
+          <span className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+            FIREBASE
+          </span>
         </div>
         <div className="bg-[#0A1929] rounded-md">
           <h1>Cirtificate</h1>
