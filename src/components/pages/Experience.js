@@ -33,7 +33,7 @@ const Experience = () => {
       <div
         className={
           isButton
-            ? "block grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-4"
+            ? "block grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10"
             : "hidden"
         }
       >
@@ -68,7 +68,7 @@ const Experience = () => {
         className={
           isButton
             ? "hidden"
-            : "block  grid grid-cols md:grid-cols-2 lg:grid-cols-3"
+            : "block  grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10"
         }
       >
         <div>
