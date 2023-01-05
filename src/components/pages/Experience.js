@@ -39,17 +39,23 @@ const Experience = () => {
       >
         <div className="bg-[#0A1929] p-4">
           <b className="bg-black px-3 py-2 mb-4 rounded">Education</b>
-          <div className="relative">
+          <div className="relative my-2">
             <h2 className="">2014-2016</h2>
-            <i className="absolute top-0 left-12">SSC</i>
+            <i className="absolute top-0 left-20">- SSC</i>
             <h1>Jagdal Dhakil Madrasah</h1>
           </div>
           <LineGradient></LineGradient>
-          <h2>2016-2018</h2>
-          <h1>Jagdal Dhakil Madrasah</h1>
+          <div className="relative">
+            <h2 className="">2016-2018</h2>
+            <i className="absolute top-0 left-20">- HSC</i>
+            <h1>Dui Para Alim Madrasah</h1>
+          </div>
           <LineGradient></LineGradient>
-          <h2>2014-2016</h2>
-          <h1>Jagdal Dhakil Madrasah</h1>
+          <div className="relative">
+            <h2 className="">2019-2023</h2>
+            <i className="absolute top-0 left-20">- BA HONS</i>
+            <h1>University of Dhaka</h1>
+          </div>
         </div>
         <div className="bg-[#0A1929]">
           <h1>Skill</h1>
