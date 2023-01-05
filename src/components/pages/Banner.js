@@ -7,7 +7,7 @@ const Banner = ({ setSelectedPage }) => {
   // const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
     <section id="home">
-      <div className="md:flex md:justify-between md:items-center gap-16 md:h-full w-5/6 mx-auto">
+      <div className="md:flex md:justify-between md:items-center gap-16 md:h-full w-5/6 mx-auto  relative">
         {/* IMAGE SECTION */}
         <div className="basis-3/5 z-10 md:mt-16 flex justify-center md:order-2">
           <div>
@@ -55,7 +55,28 @@ const Banner = ({ setSelectedPage }) => {
 
           <SocialIcons />
         </div>
+        <h1 className="text-center absolute bottom-4 left-1/2">
+          {" "}
+          <a href="#projects">
+            {" "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="hidden animate-bounce w-6 h-6 rounded-full bg-gradient-rainblue text-black"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3"
+              />
+            </svg>
+          </a>
+        </h1>
       </div>
+
       <LineGradient></LineGradient>
     </section>
   );

@@ -7,9 +7,13 @@ const Experience = () => {
     <div>
       <div className="w-5/6 mx-auto my-20">
         <div>
-          <h1 className="font-bold text-[50px] my-6">
-            <span className="text-red font-bold">MY </span>EXPERIENCE
-          </h1>
+          <div className="relative">
+            <p className="text-yellow font-bold">My Experience</p>
+            <p className="absolute h-[3px] w-12 top-[13px] left-32 bg-gradient-rainblue"></p>
+            <h1 className="font-bold text-[50px] mb-6 mt-2">
+              <span className="text-red font-bold">MY </span>EXPERIENCE
+            </h1>
+          </div>
           <button
             onClick={() => setIsButton(!isButton)}
             className={
