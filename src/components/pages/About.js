@@ -8,7 +8,7 @@ const About = () => {
         <div className="relative">
           <p className="text-yellow font-bold">About me</p>
           <p className="absolute h-[3px] w-12 top-[13px] left-20 bg-gradient-rainblue"></p>
-          <h1 className="font-bold text-6xl my-6">
+          <h1 className="font-bold text-[50px] my-6">
             <span className="text-red font-bold">ABOUT </span>ME
           </h1>
         </div>
@@ -106,7 +106,7 @@ const About = () => {
                     </div>
                   </div>
                   <a
-                    className="border-2 border-gradient-rainblue px-4 py-2 hover:bg-gradient-rainblue"
+                    className="border-2 border-gradient-rainblue px-4 py-2 hover:bg-gradient-rainblue rounded"
                     href="/Aslam's_Resume.pdf"
                     download
                   >

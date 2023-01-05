@@ -3,6 +3,7 @@ import About from "../About";
 import Banner from "../Banner";
 import Blog from "../Blogs";
 import Contacts from "../Contacts";
+import Experience from "../Experience";
 import Footer from "../Footer";
 import { Navbar } from "../Navbar";
 import Projects from "../Projects";
@@ -32,6 +33,7 @@ const Home = () => {
       <Banner setSelectedPage={setSelectedPage}></Banner>
       <Projects></Projects>
       <About></About>
+      <Experience></Experience>
       <Blog></Blog>
       <Contacts></Contacts>
       <Footer></Footer>
