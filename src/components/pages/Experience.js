@@ -33,34 +33,34 @@ const Experience = () => {
       <div
         className={
           isButton
-            ? "block grid grid-cols md:grid-cols-2 lg:grid-cols-3"
+            ? "block grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-4"
             : "hidden"
         }
       >
-        <div className="bg-[#0A1929] p-4">
-          <b className="bg-black px-3 py-2 mb-4 rounded">Education</b>
-          <div className="relative my-2">
+        <div className="bg-[#0A1929] p-6 rounded-md">
+          <b className="bg-black px-3 py-2 rounded">Education</b>
+          <div className="relative mt-8 mb-4">
             <h2 className="">2014-2016</h2>
             <i className="absolute top-0 left-20">- SSC</i>
             <h1>Jagdal Dhakil Madrasah</h1>
           </div>
           <LineGradient></LineGradient>
-          <div className="relative">
+          <div className="relative my-4">
             <h2 className="">2016-2018</h2>
             <i className="absolute top-0 left-20">- HSC</i>
             <h1>Dui Para Alim Madrasah</h1>
           </div>
           <LineGradient></LineGradient>
-          <div className="relative">
+          <div className="relative my-2">
             <h2 className="">2019-2023</h2>
             <i className="absolute top-0 left-20">- BA HONS</i>
             <h1>University of Dhaka</h1>
           </div>
         </div>
-        <div className="bg-[#0A1929]">
+        <div className="bg-[#0A1929] rounded-md">
           <h1>Skill</h1>
         </div>
-        <div className="bg-[#0A1929]">
+        <div className="bg-[#0A1929] rounded-md">
           <h1>Cirtificate</h1>
         </div>
       </div>
