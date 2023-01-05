@@ -60,48 +60,48 @@ const Experience = () => {
         <div className="bg-[#0A1929] p-6 rounded-md">
           <b className="bg-black px-3 py-2 rounded">Skill</b>
           <div className="grid grid-cols-2 my-4">
-            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black text-center hover:translate-y-[-2px] duration-50">
               HTML
             </h1>
-            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black text-center hover:translate-y-[-2px] duration-50">
               CSS
             </h1>
           </div>
           <div className="grid grid-cols-2 my-4">
-            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black text-center hover:translate-y-[-2px] duration-50">
               BOOTSTRAP
             </h1>
-            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black text-center hover:translate-y-[-2px] duration-50">
               TAILWIND CSS
             </h1>
           </div>
           <div className="grid grid-cols-2 my-4">
-            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black text-center hover:translate-y-[-2px] duration-50">
               JABASCRIPT
             </h1>
-            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black text-center hover:translate-y-[-2px] duration-50">
               REACT JS
             </h1>
           </div>
           <div className="grid grid-cols-2 my-4">
-            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black text-center hover:translate-y-[-2px] duration-50">
               REDUX
             </h1>
-            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black text-center hover:translate-y-[-2px] duration-50">
               NODE JS
             </h1>
           </div>
           <div className="grid grid-cols-2 my-4">
-            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black text-center hover:translate-y-[-2px] duration-50">
               EXPRESS JS
             </h1>
-            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+            <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black text-center hover:translate-y-[-2px] duration-50">
               MONGO DB
             </h1>
           </div>
-          <span className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black ">
+          <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black text-center hover:translate-y-[-2px] duration-50 inline-block">
             FIREBASE
-          </span>
+          </h1>
         </div>
         <div className="bg-[#0A1929] rounded-md">
           <h1>Cirtificate</h1>
