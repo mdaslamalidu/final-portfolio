@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section>
       <div id="about" className="my-24 w-5/6 mx-auto">
-        <div className="relative">
+        <div data-aos="fade-down" className="relative">
           <p className="text-yellow font-bold">About me</p>
           <p className="absolute h-[3px] w-12 top-[13px] left-20 bg-gradient-rainblue"></p>
           <h1 className="font-bold text-[50px] mb-6 mt-2">
@@ -14,10 +14,13 @@ const About = () => {
         </div>
         <>
           <div className="flex flex-col md:flex-row justify-around gap-8">
-            <div className="w-full md:w-1/2 bg-[#0A1929] rounded-lg shadow-xl">
+            <div
+              data-aos="fade-right"
+              className="w-full md:w-1/2 bg-[#0A1929] rounded-lg shadow-xl"
+            >
               <img className="w-full  rounded" src={myImg} alt="" />
             </div>
-            <div className="w-full md:w-1/2">
+            <div data-aos="fade-left" className="w-full md:w-1/2">
               <div className="my-5">
                 <h1 className="text-4xl font-bold ">I'm Md Aslam Ali</h1>
                 <h1 className="text-2xl font-bold my-2">
