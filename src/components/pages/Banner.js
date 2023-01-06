@@ -7,9 +7,9 @@ const Banner = ({ setSelectedPage }) => {
   // const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
     <section id="home">
-      <div className="md:flex md:justify-between md:items-center gap-16 md:h-full w-5/6 mx-auto  relative">
+      <div className="md:flex justify-between items-center gap-16 md:h-full w-5/6 mx-auto">
         {/* IMAGE SECTION */}
-        <div className="basis-3/5 z-10 md:mt-16 flex justify-center md:order-2">
+        <div className="basis-3/5 md:mt-16 flex justify-center md:order-2">
           <div>
             <img
               alt="profile"
@@ -20,14 +20,14 @@ const Banner = ({ setSelectedPage }) => {
         </div>
 
         {/* MAIN TEXT */}
-        <div className="z-30 basis-2/5 mt-12 md:mt-32">
+        <div className="z-30 basis-2/5 mt-[-260px] md:mt-32">
           <p
             className="text-5xl  text-white xs:relative xs:font-semibold z-20 xs:before:content-brush
               before:absolute before:-left-[25px] before:-top-[100px] before:z-[-1]"
           >
             MD ASLAM ALI
           </p>
-          <p className="mt-5 mb-7 text-2xl text-center md:text-start z-[1]">
+          <p className="mt-5 mb-7 text-2xl  md:text-start z-[1]">
             <Typewriter
               className="inline"
               options={{
