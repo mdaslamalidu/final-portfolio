@@ -9,7 +9,10 @@ const Banner = ({ setSelectedPage }) => {
     <section id="home">
       <div className="md:flex justify-between items-center gap-16 md:h-full w-5/6 mx-auto">
         {/* IMAGE SECTION */}
-        <div className="basis-3/5 md:mt-16 flex justify-center md:order-2">
+        <div
+          data-aos="fade-left"
+          className="basis-3/5 md:mt-16 flex justify-center md:order-2"
+        >
           <div>
             <img
               alt="profile"
@@ -20,7 +23,10 @@ const Banner = ({ setSelectedPage }) => {
         </div>
 
         {/* MAIN TEXT */}
-        <div className="z-30 basis-2/5 mt-[-260px] md:mt-32">
+        <div
+          data-aos="fade-right"
+          className="z-30 basis-2/5 mt-[-260px] md:mt-32"
+        >
           <p
             className="text-5xl  text-white xs:relative xs:font-semibold z-20 xs:before:content-brush
               before:absolute before:-left-[25px] before:-top-[100px] before:z-[-1]"
@@ -55,7 +61,7 @@ const Banner = ({ setSelectedPage }) => {
 
           <SocialIcons />
         </div>
-        <h1 className="text-center absolute bottom-4 left-1/2">
+        <h1 className="hidden md:block text-center absolute bottom-4 left-1/2">
           {" "}
           <a href="#services">
             {" "}
