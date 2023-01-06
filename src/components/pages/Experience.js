@@ -4,7 +4,7 @@ import LineGradient from "../../hooks/LineGradient";
 const Experience = () => {
   const [isButton, setIsButton] = useState(true);
   return (
-    <div>
+    <div id="experience">
       <div className="w-5/6 mx-auto my-20">
         <div>
           <div data-aos="fade-down" className="relative">
@@ -127,7 +127,7 @@ const Experience = () => {
               : "block  grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10"
           }
         >
-          <div className="bg-[#0A1929] rounded-md p-6">
+          <div data-aos="fade-right" className="bg-[#0A1929] rounded-md p-6">
             <b className="bg-black px-3 py-2 rounded">BNCC</b>
             <div className="relative my-6">
               <h2 className="">2019-Jan to 2022-Dec</h2>
@@ -136,7 +136,7 @@ const Experience = () => {
             </div>
             <LineGradient></LineGradient>
           </div>
-          <div className="bg-[#0A1929] rounded-md p-6">
+          <div data-aos="fade-left" className="bg-[#0A1929] rounded-md p-6">
             <b className="bg-black px-3 py-2 rounded">BADHON</b>
             <div className="relative my-6">
               <h2 className="">2019-Jan to 2022-Dec</h2>
