@@ -6,7 +6,7 @@ const Services = ({ setSelectedPage }) => {
   return (
     <div id="services">
       <div className="w-5/6 mx-auto my-24">
-        <div className="relative">
+        <div data-aos="fade-down" className="relative">
           <p className="text-yellow font-bold">My Services</p>
           <p className="absolute h-[3px] w-12 top-[13px] left-24 bg-gradient-rainblue"></p>
           <h1 className="font-bold text-[50px] mt-2">
@@ -17,7 +17,10 @@ const Services = ({ setSelectedPage }) => {
           </p>
         </div>
         <div className="md:flex justify-between gap-4 mt-8">
-          <div className="bg-[#0A1929] mb-5 md:mb-0 py-12 px-10  w-full rounded-md md:w-1/4 ">
+          <div
+            data-aos="fade-left"
+            className="bg-[#0A1929] mb-5 md:mb-0 py-12 px-10  w-full rounded-md md:w-1/4 "
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -59,7 +62,10 @@ const Services = ({ setSelectedPage }) => {
               </AnchorLink>
             </div>
           </div>
-          <div className="bg-[#0A1929] mb-5 md:mb-0 py-12 px-10 w-full md:w-1/4 rounded-md">
+          <div
+            data-aos="fade-left"
+            className="bg-[#0A1929] mb-5 md:mb-0 py-12 px-10 w-full md:w-1/4 rounded-md"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -99,7 +105,10 @@ const Services = ({ setSelectedPage }) => {
               </AnchorLink>
             </div>
           </div>
-          <div className="bg-[#0A1929] mb-5 md:mb-0 py-12 px-10 w-full rounded-md md:w-1/4">
+          <div
+            data-aos="fade-right"
+            className="bg-[#0A1929] mb-5 md:mb-0 py-12 px-10 w-full rounded-md md:w-1/4"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -141,7 +150,10 @@ const Services = ({ setSelectedPage }) => {
               </AnchorLink>
             </div>
           </div>
-          <div className="bg-[#0A1929] mb-5 md:mb-0 py-12 px-10 w-full rounded-md md:w-1/4">
+          <div
+            data-aos="fade-right"
+            className="bg-[#0A1929] mb-5 md:mb-0 py-12 px-10 w-full rounded-md md:w-1/4"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
