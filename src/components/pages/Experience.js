@@ -7,33 +7,35 @@ const Experience = () => {
     <div>
       <div className="w-5/6 mx-auto my-20">
         <div>
-          <div className="relative">
+          <div data-aos="fade-down" className="relative">
             <p className="text-yellow font-bold">My Experience</p>
             <p className="absolute h-[3px] w-12 top-[13px] left-32 bg-gradient-rainblue"></p>
             <h1 className="font-bold text-[50px] mb-6 mt-2">
               <span className="text-red font-bold">MY </span>EXPERIENCE
             </h1>
           </div>
-          <button
-            onClick={() => setIsButton(!isButton)}
-            className={
-              isButton
-                ? "bg-gradient-rainblue border-white border rounded py-2 px-3 mr-2"
-                : " border-white border rounded py-2 px-3 mr-2"
-            }
-          >
-            Education & Skill
-          </button>
-          <button
-            onClick={() => setIsButton(!isButton)}
-            className={
-              isButton
-                ? " border-white border rounded py-2 px-3 mr-2"
-                : "bg-gradient-rainblue border-white border rounded py-2 px-3 mr-2"
-            }
-          >
-            Experience
-          </button>
+          <div data-aos="fade-right">
+            <button
+              onClick={() => setIsButton(!isButton)}
+              className={
+                isButton
+                  ? "bg-gradient-rainblue border-white border rounded py-2 px-3 mr-2"
+                  : " border-white border rounded py-2 px-3 mr-2"
+              }
+            >
+              Education & Skill
+            </button>
+            <button
+              onClick={() => setIsButton(!isButton)}
+              className={
+                isButton
+                  ? " border-white border rounded py-2 px-3 mr-2"
+                  : "bg-gradient-rainblue border-white border rounded py-2 px-3 mr-2"
+              }
+            >
+              Experience
+            </button>
+          </div>
         </div>
         <div
           className={
@@ -42,7 +44,7 @@ const Experience = () => {
               : "hidden"
           }
         >
-          <div className="bg-[#0A1929] p-6 rounded-md">
+          <div data-aos="fade-right" className="bg-[#0A1929] p-6 rounded-md">
             <b className="bg-black px-3 py-2 rounded">Education</b>
             <div className="relative mt-8 mb-4">
               <h2 className="">2014-2016</h2>
@@ -62,7 +64,7 @@ const Experience = () => {
               <h1>University of Dhaka</h1>
             </div>
           </div>
-          <div className="bg-[#0A1929] p-6 rounded-md">
+          <div data-aos="fade-down" className="bg-[#0A1929] p-6 rounded-md">
             <b className="bg-black px-3 py-2 rounded">Skill</b>
             <div className="grid grid-cols-2 my-4">
               <h1 className="bg-white text-black mr-4 py-1 px-2 rounded hover:shadow-xl hover:shadow-black text-center hover:translate-y-[-2px] duration-50">
@@ -108,7 +110,7 @@ const Experience = () => {
               FIREBASE
             </h1>
           </div>
-          <div className="bg-[#0A1929] rounded-md p-6">
+          <div data-aos="fade-left" className="bg-[#0A1929] rounded-md p-6">
             <b className="bg-black px-3 py-2 rounded">Cirtificate</b>
             <div className="relative my-6">
               <h2 className="">2022-July to 2022-Dec</h2>

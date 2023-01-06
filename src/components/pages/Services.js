@@ -18,7 +18,7 @@ const Services = ({ setSelectedPage }) => {
         </div>
         <div className="md:flex justify-between gap-4 mt-8">
           <div
-            data-aos="fade-left"
+            data-aos="fade-right"
             className="bg-[#0A1929] mb-5 md:mb-0 py-12 px-10  w-full rounded-md md:w-1/4 "
           >
             <svg
@@ -63,7 +63,7 @@ const Services = ({ setSelectedPage }) => {
             </div>
           </div>
           <div
-            data-aos="fade-left"
+            data-aos="fade-right"
             className="bg-[#0A1929] mb-5 md:mb-0 py-12 px-10 w-full md:w-1/4 rounded-md"
           >
             <svg
@@ -106,7 +106,7 @@ const Services = ({ setSelectedPage }) => {
             </div>
           </div>
           <div
-            data-aos="fade-right"
+            data-aos="fade-left"
             className="bg-[#0A1929] mb-5 md:mb-0 py-12 px-10 w-full rounded-md md:w-1/4"
           >
             <svg
@@ -151,7 +151,7 @@ const Services = ({ setSelectedPage }) => {
             </div>
           </div>
           <div
-            data-aos="fade-right"
+            data-aos="fade-left"
             className="bg-[#0A1929] mb-5 md:mb-0 py-12 px-10 w-full rounded-md md:w-1/4"
           >
             <svg
