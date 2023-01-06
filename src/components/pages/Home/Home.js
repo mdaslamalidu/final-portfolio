@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Services from "../../Services";
+import Services from "../Services";
 import About from "../About";
 import Banner from "../Banner";
 import Blog from "../Blogs";

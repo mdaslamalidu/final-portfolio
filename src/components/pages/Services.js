@@ -1,7 +1,8 @@
 import React from "react";
-import LineGradient from "../hooks/LineGradient";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import LineGradient from "../../hooks/LineGradient";
 
-const Services = () => {
+const Services = ({ setSelectedPage }) => {
   return (
     <div>
       <div className="w-5/6 mx-auto my-24">
@@ -36,21 +37,26 @@ const Services = () => {
               Web <br /> Design
             </h1>
             <div className="relative hover:text-yellow duration-200 font-bold">
-              <p>Contact</p>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6 absolute top-[3px] left-16"
+              <AnchorLink
+                onClick={() => setSelectedPage("contact")}
+                href="#contact"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                />
-              </svg>
+                Contact
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 absolute top-[3px] left-16"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                  />
+                </svg>
+              </AnchorLink>
             </div>
           </div>
           <div className="bg-[#0A1929] mb-5 md:mb-0 py-12 px-10 w-full md:w-1/4 rounded-md">
@@ -71,21 +77,26 @@ const Services = () => {
 
             <h1 className="my-4 text-2xl font-bold">Web Devlopment</h1>
             <div className="relative hover:text-yellow duration-200 font-bold">
-              <p>Contact</p>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6 absolute top-[3px] left-16"
+              <AnchorLink
+                onClick={() => setSelectedPage("contact")}
+                href="#contact"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                />
-              </svg>
+                Contact
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 absolute top-[3px] left-16"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                  />
+                </svg>
+              </AnchorLink>
             </div>
           </div>
           <div className="bg-[#0A1929] mb-5 md:mb-0 py-12 px-10 w-full rounded-md md:w-1/4">
@@ -108,21 +119,26 @@ const Services = () => {
               Mobile <br /> Responsive
             </h1>
             <div className="relative hover:text-yellow duration-200 font-bold">
-              <p>Contact</p>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6 absolute top-[3px] left-16"
+              <AnchorLink
+                onClick={() => setSelectedPage("contact")}
+                href="#contact"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                />
-              </svg>
+                Contact
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 absolute top-[3px] left-16"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                  />
+                </svg>
+              </AnchorLink>
             </div>
           </div>
           <div className="bg-[#0A1929] mb-5 md:mb-0 py-12 px-10 w-full rounded-md md:w-1/4">
@@ -145,21 +161,26 @@ const Services = () => {
               React <br /> Development
             </h1>
             <div className="relative hover:text-yellow duration-200 font-bold">
-              <p>Contact</p>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6 absolute top-[3px] left-16"
+              <AnchorLink
+                onClick={() => setSelectedPage("contact")}
+                href="#contact"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                />
-              </svg>
+                Contact
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 absolute top-[3px] left-16"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                  />
+                </svg>
+              </AnchorLink>
             </div>
           </div>
         </div>

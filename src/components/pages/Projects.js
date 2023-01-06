@@ -18,11 +18,12 @@ const Projects = () => {
   return (
     <section id="projects">
       <div className="main-testimonials-wrapper mt-24 w-5/6 mx-auto">
-        <p className="font-playfair font-semibold text-4xl text-center">
-          <span className="text-red">PRO</span>JECTS
-        </p>
-        <div className="flex justify-center my-5">
-          <LineGradient width="w-[120px]" />
+        <div className="relative">
+          <p className="text-yellow font-bold">My Projects</p>
+          <p className="absolute h-[3px] w-12 top-[13px] left-28 bg-gradient-rainblue"></p>
+          <h1 className="font-bold text-[50px] mb-6 mt-2">
+            <span className="text-red font-bold">MY </span>PROJECTS
+          </h1>
         </div>
         <Swiper
           effect={"coverflow"}
