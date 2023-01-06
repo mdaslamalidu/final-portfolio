@@ -61,6 +61,13 @@ export const Navbar = ({ isTopOfPage, setSelectedPage, selectedPage }) => {
             </li>
             <li>
               <NavLink
+                page="Services"
+                selectedPage={selectedPage}
+                setSelectedPage={setSelectedPage}
+              />
+            </li>
+            <li>
+              <NavLink
                 page="Projects"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
@@ -207,6 +214,13 @@ export const Navbar = ({ isTopOfPage, setSelectedPage, selectedPage }) => {
                       <li>
                         <NavLink
                           page="Home"
+                          selectedPage={selectedPage}
+                          setSelectedPage={setSelectedPage}
+                        />
+                      </li>
+                      <li>
+                        <NavLink
+                          page="Services"
                           selectedPage={selectedPage}
                           setSelectedPage={setSelectedPage}
                         />

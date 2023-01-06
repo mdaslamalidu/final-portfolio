@@ -57,7 +57,7 @@ const Banner = ({ setSelectedPage }) => {
         </div>
         <h1 className="text-center absolute bottom-4 left-1/2">
           {" "}
-          <a href="#projects">
+          <a href="#services">
             {" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@ const Banner = ({ setSelectedPage }) => {
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="hidden animate-bounce w-6 h-6 rounded-full bg-gradient-rainblue text-black"
+              class="animate-bounce w-6 h-6 rounded-full bg-gradient-rainblue text-black mb-4"
             >
               <path
                 stroke-linecap="round"

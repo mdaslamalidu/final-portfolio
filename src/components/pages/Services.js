@@ -4,7 +4,7 @@ import LineGradient from "../../hooks/LineGradient";
 
 const Services = ({ setSelectedPage }) => {
   return (
-    <div>
+    <div id="services">
       <div className="w-5/6 mx-auto my-24">
         <div className="relative">
           <p className="text-yellow font-bold">My Services</p>
