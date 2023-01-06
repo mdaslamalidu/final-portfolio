@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Services from "../../Services";
 import About from "../About";
 import Banner from "../Banner";
 import Blog from "../Blogs";
@@ -31,9 +32,10 @@ const Home = () => {
         setSelectedPage={setSelectedPage}
       ></Navbar>
       <Banner setSelectedPage={setSelectedPage}></Banner>
-      <Projects></Projects>
+      <Services></Services>
       <About></About>
       <Experience></Experience>
+      <Projects></Projects>
       <Blog></Blog>
       <Contacts></Contacts>
       <Footer></Footer>

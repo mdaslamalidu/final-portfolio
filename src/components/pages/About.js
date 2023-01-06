@@ -35,7 +35,7 @@ const About = () => {
                 </h2>
                 <LineGradient className="text-center my-8" width="w-full" />
                 <div className="mt-6">
-                  <div className="flex justify-between mb-8">
+                  <div className="md:flex justify-between mb-8">
                     <div>
                       <h2 className="my-2">
                         <b className="text-xl font-bold py-2 rounded my-2">
