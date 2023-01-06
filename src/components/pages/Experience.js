@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import LineGradient from "../../hooks/LineGradient";
 
 const Experience = () => {
-  const [isButton, setIsButton] = useState(false);
+  const [isButton, setIsButton] = useState(true);
   return (
     <div>
       <div className="w-5/6 mx-auto my-20">
