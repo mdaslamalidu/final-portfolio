@@ -11,7 +11,7 @@ const Banner = ({ setSelectedPage }) => {
         {/* IMAGE SECTION */}
         <div
           data-aos="fade-left"
-          className="relative basis-3/5 md:mt-16 flex justify-center md:order-2"
+          className="basis-3/5 md:mt-16 flex justify-center md:order-2 relative"
         >
           <div className="z-10">
             <img
@@ -20,10 +20,13 @@ const Banner = ({ setSelectedPage }) => {
               src="assets/profile.png"
             />
           </div>
-          <div className="z-0 absolute top-16 left-20">
-            <div className="filter blur-lg opacity-70 absolute z-0  top-0 left-0 mix-blend-multiply w-60 h-60 bg-gray-300 rounded-full"></div>
-            <div className="filter blur-lg opacity-70 absolute z-0  top-0 left-60 mix-blend-multiply w-60 h-60 bg-pink-300 rounded-full"></div>
-            <div className="filter blur-lg opacity-70 absolute z-0 top-8 left-32 mix-blend-multiply w-60 h-60 bg-yellow rounded-full"></div>
+          <div className="z-0 absolute top-0 left-[275px]">
+            <div className="z-0 absolute top-4 left-[-100px] mix-blend-multiply w-80 h-80 bg-gradient-rainblue rounded-md rotate-45"></div>
+            {/* <div className="filter blur-lg opacity-70 absolute top-20 left-44 mix-blend-multiply w-12 h-12 bg-pink-300 rounded-full animate-blob animation-delay-2000"></div>
+        <div className="filter blur-lg opacity-70 absolute top-0 left-40 mix-blend-multiply w-12 h-12 bg-yellow rounded-full animate-blob animation-delay-4000"></div>
+        <div className="filter blur-lg opacity-70 absolute top-0 left-4 mix-blend-multiply w-12 h-12 bg-gray-300 rounded-full animate-blob"></div> */}
+            {/* <div className="filter blur-lg opacity-70 absolute top-0 left-12 mix-blend-multiply w-12 h-12 bg-pink-300 rounded-full animate-blob animation-delay-2000"></div> */}
+            {/* <div className="filter blur-lg opacity-70 absolutetop-8 left-20 mix-blend-multiply w-12 h-12 bg-yellow rounded-full animate-blob animation-delay-4000"></div> */}
           </div>
         </div>
 
