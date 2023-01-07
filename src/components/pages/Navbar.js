@@ -21,6 +21,7 @@ const NavLink = ({ page, selectedPage, setSelectedPage }) => {
 };
 
 export const Navbar = ({ isTopOfPage, setSelectedPage, selectedPage }) => {
+  const [isMenu, setIsMenu] = useState(false);
   // const [selectedPage, setSelectedPage] = useState("home");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   // const [isTopOfPage, setIsTopOfPage] = useState(true);
@@ -51,55 +52,82 @@ export const Navbar = ({ isTopOfPage, setSelectedPage, selectedPage }) => {
           >
             <img className="w-8" src="assets/logo.png" alt="" />
           </Link>
-          <ul class="flex items-center space-x-8 lg:flex">
-            <li>
-              <NavLink
-                page="Home"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
-            </li>
-            <li>
-              <NavLink
-                page="Services"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
-            </li>
-            <li>
-              <NavLink
-                page="About"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
-            </li>
-            <li>
-              <NavLink
-                page="Experience"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
-            </li>
-            <li>
-              <NavLink
-                page="Projects"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
-            </li>
-            <li>
-              <NavLink
-                page="Blog"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
-            </li>
-            <li>
-              <NavLink
-                page="Contact"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
+
+          <ul class="flex items-center space-x-8 lg:flex hidden">
+            <nav
+              className={
+                isMenu
+                  ? "transition duration-300"
+                  : "transition duration-300 hidden"
+              }
+            >
+              <ul class="flex items-center space-x-8 lg:flex ">
+                <li>
+                  <NavLink
+                    page="Home"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                </li>
+                <li>
+                  <NavLink
+                    page="Services"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                </li>
+                <li>
+                  <NavLink
+                    page="About"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                </li>
+                <li>
+                  <NavLink
+                    page="Experience"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                </li>
+                <li>
+                  <NavLink
+                    page="Projects"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                </li>
+                <li>
+                  <NavLink
+                    page="Blog"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                </li>
+                <li>
+                  <NavLink
+                    page="Contact"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                </li>
+              </ul>
+            </nav>
+            <li onMouseEnter={() => setIsMenu(!isMenu)}>
+              <svg class="w-5 text-gradient-rainblue" viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z"
+                />
+                <path
+                  fill="currentColor"
+                  d="M23,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,6,23,6z"
+                />
+                <path
+                  fill="currentColor"
+                  d="M23,20H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,20,23,20z"
+                />
+              </svg>
             </li>
             <li>
               <a
