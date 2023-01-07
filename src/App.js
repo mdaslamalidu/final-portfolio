@@ -5,6 +5,7 @@ import { routes } from "./Layout/Routes";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Cursor from "./components/pages/Cursor/Cursor";
 
 function App() {
   useEffect(() => {
@@ -12,6 +13,7 @@ function App() {
   }, []);
   return (
     <div className="">
+      <Cursor></Cursor>
       <RouterProvider router={routes}></RouterProvider>
     </div>
   );
