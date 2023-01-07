@@ -51,7 +51,7 @@ export const Navbar = ({ isTopOfPage, setSelectedPage, selectedPage }) => {
           >
             <img className="w-8" src="assets/logo.png" alt="" />
           </Link>
-          <ul class="flex items-center hidden space-x-8 lg:flex">
+          <ul class="flex items-center space-x-8 lg:flex">
             <li>
               <NavLink
                 page="Home"

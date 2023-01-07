@@ -21,7 +21,7 @@ const Banner = ({ setSelectedPage }) => {
             />
           </div>
           <div className="z-0 absolute top-0 left-[275px]">
-            <div className="z-0 absolute top-4 left-[-100px] mix-blend-multiply w-80 h-80 bg-gradient-rainblue rounded-md rotate-45"></div>
+            <div className="z-0 absolute top-4 left-[-250px] md:left-[-100px] mix-blend-multiply w-80 h-80 bg-gradient-rainblue rounded-md  animate-blob"></div>
             {/* <div className="filter blur-lg opacity-70 absolute top-20 left-44 mix-blend-multiply w-12 h-12 bg-pink-300 rounded-full animate-blob animation-delay-2000"></div>
         <div className="filter blur-lg opacity-70 absolute top-0 left-40 mix-blend-multiply w-12 h-12 bg-yellow rounded-full animate-blob animation-delay-4000"></div>
         <div className="filter blur-lg opacity-70 absolute top-0 left-4 mix-blend-multiply w-12 h-12 bg-gray-300 rounded-full animate-blob"></div> */}
