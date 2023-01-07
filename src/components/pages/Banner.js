@@ -13,17 +13,17 @@ const Banner = ({ setSelectedPage }) => {
           data-aos="fade-left"
           className="relative basis-3/5 md:mt-16 flex justify-center md:order-2"
         >
-          <div>
+          <div className="z-10">
             <img
               alt="profile"
               className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full h-[508px] max-w-[400px] md:max-w-[600px] -mt-12"
               src="assets/profile.png"
             />
           </div>
-          <div className=" absolute top-0 left-20">
-            <div className="absolute z-0  top-0 left-0 w-72 h-72 bg-gray-300 rounded-full"></div>
-            <div className="absolute z-0  top-0 left-60 w-72 h-72 bg-pink-300 rounded-full"></div>
-            <div className="absolute z-0 top-0 left-44 w-72 h-72 bg-yellow rounded-full"></div>
+          <div className="z-0 absolute top-16 left-20">
+            <div className="filter blur-lg opacity-70 absolute z-0  top-0 left-0 mix-blend-multiply w-60 h-60 bg-gray-300 rounded-full"></div>
+            <div className="filter blur-lg opacity-70 absolute z-0  top-0 left-60 mix-blend-multiply w-60 h-60 bg-pink-300 rounded-full"></div>
+            <div className="filter blur-lg opacity-70 absolute z-0 top-8 left-32 mix-blend-multiply w-60 h-60 bg-yellow rounded-full"></div>
           </div>
         </div>
 
