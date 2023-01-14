@@ -33,7 +33,7 @@ const Banner = ({ setSelectedPage }) => {
         {/* MAIN TEXT */}
         <div
           data-aos="fade-right"
-          className="z-30 basis-2/5 mt-[-260px] md:mt-32"
+          className="z-30 basis-2/5 mt-[-260px] md:mt-32 text-center md:text-left"
         >
           <p
             className="text-5xl  text-white xs:relative xs:font-semibold z-20 xs:before:content-brush
