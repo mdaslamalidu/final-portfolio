@@ -8,7 +8,7 @@ const Banner = ({ setSelectedPage }) => {
   return (
     <section id="home">
       <div className="w-5/6 mx-auto">
-        <div className="mb-20 md:flex justify-between items-center gap-16 md:h-full ">
+        <div className="mb-[54px] md:mb-20 md:flex justify-between items-center gap-16 md:h-full ">
           {/* IMAGE SECTION */}
           <div
             data-aos="fade-left"
@@ -42,7 +42,7 @@ const Banner = ({ setSelectedPage }) => {
             >
               MD ASLAM ALI
             </p>
-            <p className="mt-2 md:mt-5 mb-7 text-xl md:text-2xl  md:text-start z-[1]">
+            <p className="mt-2 md:mt-5 mb-3 md:mb-7 text-xl md:text-2xl  md:text-start z-[1]">
               <Typewriter
                 className="inline"
                 options={{
