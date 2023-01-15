@@ -17,11 +17,11 @@ const Banner = ({ setSelectedPage }) => {
             <div className="z-10">
               <img
                 alt="profile"
-                className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full h-[368px] max-w-[400px] md:max-w-[600px] -mt-12"
+                className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full h-[333px] md:h-[368px] max-w-[400px] md:max-w-[600px] mt-0 md:-mt-12"
                 src="assets/profile.png"
               />
             </div>
-            <div className="z-0 absolute top-0 left-1/2 translate-x-[-50%] ">
+            <div className="z-0 absolute top-4 md:top-0 left-1/2 translate-x-[-50%] ">
               <div className="z-0 absolute top-0 left-1/2 translate-x-[-50%] mix-blend-multiply w-80 h-80 bg-gradient-rainblue rounded-lg animate-pulse"></div>
               {/* <div className="filter blur-lg opacity-70 absolute top-20 left-44 mix-blend-multiply w-12 h-12 bg-pink-300 rounded-full animate-blob animation-delay-2000"></div>
         <div className="filter blur-lg opacity-70 absolute top-0 left-40 mix-blend-multiply w-12 h-12 bg-yellow rounded-full animate-blob animation-delay-4000"></div>
@@ -37,7 +37,7 @@ const Banner = ({ setSelectedPage }) => {
             className="z-30 basis-2/5 mt-[-260px] md:mt-32 text-center md:text-left"
           >
             <p
-              className="text-2xl md:text-5xl  text-white xs:relative font-bold z-20 mt-8 md:mt-0 xs:before:content-brush
+              className="text-2xl md:text-5xl  text-white xs:relative font-bold z-20 mt-12 md:mt-0 xs:before:content-brush
               before:absolute before:-left-[25px] before:-top-[100px] before:z-[-1]"
             >
               MD ASLAM ALI
