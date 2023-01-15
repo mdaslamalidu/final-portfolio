@@ -16,12 +16,12 @@ const Banner = ({ setSelectedPage }) => {
           <div className="z-10">
             <img
               alt="profile"
-              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full h-[508px] max-w-[400px] md:max-w-[600px] -mt-12"
+              className="rounded-full hover:filter hover:saturate-200 transition duration-500 z-10 w-full h-[350px] max-w-[400px] md:max-w-[600px] -mt-12"
               src="assets/profile.png"
             />
           </div>
-          <div className="z-0 absolute top-0 left-[275px]">
-            <div className="z-0 absolute top-4 left-[-250px] md:left-[-100px] mix-blend-multiply w-80 h-80 bg-gradient-rainblue rounded-md  animate-blob"></div>
+          <div className="z-0 absolute top-0 left-1/2 translate-x-[-50%] translate-y-[-50%]">
+            <div className="z-0 absolute top-0 left-1/2 translate-x-[-50%] translate-y-[-50%] mix-blend-multiply w-80 h-80 bg-gradient-rainblue rounded-full animate-blob"></div>
             {/* <div className="filter blur-lg opacity-70 absolute top-20 left-44 mix-blend-multiply w-12 h-12 bg-pink-300 rounded-full animate-blob animation-delay-2000"></div>
         <div className="filter blur-lg opacity-70 absolute top-0 left-40 mix-blend-multiply w-12 h-12 bg-yellow rounded-full animate-blob animation-delay-4000"></div>
         <div className="filter blur-lg opacity-70 absolute top-0 left-4 mix-blend-multiply w-12 h-12 bg-gray-300 rounded-full animate-blob"></div> */}
