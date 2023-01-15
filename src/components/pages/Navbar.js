@@ -47,7 +47,7 @@ export const Navbar = ({ isTopOfPage, setSelectedPage, selectedPage }) => {
           <Link
             to="/"
             aria-label="Company"
-            title="Company"
+            title="Aslam's Portfolio"
             class="inline-flex items-center"
           >
             <img className="w-8" src="assets/logo.png" alt="" />
@@ -219,7 +219,7 @@ export const Navbar = ({ isTopOfPage, setSelectedPage, selectedPage }) => {
                       <Link
                         to="/"
                         aria-label="Company"
-                        title="Company"
+                        title="Aslam's Portfolio"
                         class="inline-flex items-center"
                       >
                         <img className="w-8" src="assets/logo.png" alt="" />

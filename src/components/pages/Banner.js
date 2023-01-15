@@ -7,7 +7,7 @@ const Banner = ({ setSelectedPage }) => {
   // const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
     <section id="home">
-      <div className="w-5/6 mx-auto">
+      <div className="w-5/6 mx-auto relative">
         <div className="mb-[54px] md:mb-20 md:flex justify-between items-center gap-16 md:h-full ">
           {/* IMAGE SECTION */}
           <div
@@ -70,7 +70,7 @@ const Banner = ({ setSelectedPage }) => {
 
             <SocialIcons />
           </div>
-          <h1 className="hidden md:block text-center absolute bottom-4 left-1/2">
+          <h1 className="hidden md:block text-center absolute bottom-[-90px] left-1/2">
             {" "}
             <a href="#services">
               {" "}
